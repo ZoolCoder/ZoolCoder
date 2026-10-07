@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="591" height="714" viewBox="0 0 591 714">
+<style>
+text{font-family:'JetBrains Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace}
+.ar{font-family:'Noto Kufi Arabic','Geeza Pro','Segoe UI',Tahoma,sans-serif}
+.em{font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.in{opacity:0;animation:fade .6s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+.pulse{animation:pulse 1.8s ease-in-out infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.blink{animation:blink 1s step-end infinite}
+@keyframes reveal{to{clip-path:inset(0 0 0 0)}}
+.rv{clip-path:inset(0 100% 0 0);animation:reveal .14s linear forwards}
+@keyframes sweep{from{transform:translateY(-40px)}to{transform:translateY(var(--h))}}
+.beam{animation:sweep 5s linear infinite}
+@keyframes dash{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.in{opacity:1}.rv{clip-path:none}}</style>
+<defs>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" opacity=".025"/></pattern>
+<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38e8ff" stop-opacity="0"/><stop offset="1" stop-color="#38e8ff" stop-opacity=".09"/></linearGradient>
+<clipPath id="pc"><path d="M16 .5H590.5V698L575 713.5H.5V16Z"/></clipPath>
+</defs>
+<path d="M16 .5H590.5V698L575 713.5H.5V16Z" fill="#080d18" stroke="#16243a"/>
+<g clip-path="url(#pc)"><rect width="591" height="714" fill="url(#scan)"/>
+<rect class="beam" style="--h:714px" width="591" height="40" fill="url(#beam)"/></g>
+<path d="M.5 34V16L16 .5H34 M590.5 680V698L575 713.5H557" fill="none" stroke="#38e8ff" stroke-width="1.5"/>
+<text x="22" y="30" font-size="11" letter-spacing="2.5" fill="#5d7689"><tspan fill="#38e8ff">◢ </tspan>VISUAL.ID  //  ./portrait.sh</text><circle class="pulse" cx="563" cy="26" r="3.5" fill="#7dffb2"/><text x="551" y="30" font-size="11" letter-spacing="2.5" fill="#5d7689" text-anchor="end">REC</text><line x1="22" y1="44" x2="569" y2="44" stroke="#16243a"/>
+<defs><linearGradient id="ag" gradientUnits="userSpaceOnUse" x1="0" y1="74" x2="0" y2="662"><stop offset="0" stop-color="#38e8ff"/><stop offset=".45" stop-color="#ffffff"/><stop offset="1" stop-color="#0e6378"/></linearGradient></defs>
+<text class="rv" style="animation-delay:0.40s" xml:space="preserve" x="22" y="74" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:0.45s" xml:space="preserve" x="22" y="88" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:0.50s" xml:space="preserve" x="22" y="102" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:0.55s" xml:space="preserve" x="22" y="116" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:0.60s" xml:space="preserve" x="22" y="130" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:0.65s" xml:space="preserve" x="22" y="144" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:0.70s" xml:space="preserve" x="22" y="158" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:0.75s" xml:space="preserve" x="22" y="172" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:0.80s" xml:space="preserve" x="22" y="186" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:0.85s" xml:space="preserve" x="22" y="200" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:0.90s" xml:space="preserve" x="22" y="214" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:0.95s" xml:space="preserve" x="22" y="228" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                 .....                  </text>
+<text class="rv" style="animation-delay:1.00s" xml:space="preserve" x="22" y="242" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">      .sSSSSSSSSSSSSSSSSSSSSSSS+           `:+s%##@@@##%s+-.            </text>
+<text class="rv" style="animation-delay:1.05s" xml:space="preserve" x="22" y="256" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">      `@@@@@@@@@@@@@@@@@@@@@@@@S        .;S@@@@@@@@@@@@@@@@@s-          </text>
+<text class="rv" style="animation-delay:1.10s" xml:space="preserve" x="22" y="270" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">      `@@@@@@@@@@@@@@@@@@@@@@@@S       ;#@@@@@@@@#%%#@@@@@@@@@s`        </text>
+<text class="rv" style="animation-delay:1.15s" xml:space="preserve" x="22" y="284" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">       ``````````````:%@@@@@@@s`     .s@@@@@@#+-`    .&#x27;=#@@@@@@#`       </text>
+<text class="rv" style="animation-delay:1.20s" xml:space="preserve" x="22" y="298" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                    =#@@@@@@#:       S@@@@@@*.          .*@@@@@@S       </text>
+<text class="rv" style="animation-delay:1.25s" xml:space="preserve" x="22" y="312" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                  -%@@@@@@@+.       =@@@@@@*              +*=:-`.       </text>
+<text class="rv" style="animation-delay:1.30s" xml:space="preserve" x="22" y="326" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                `*@@@@@@@S&#x27;        .#@@@@@@.                            </text>
+<text class="rv" style="animation-delay:1.35s" xml:space="preserve" x="22" y="340" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">               ;#@@@@@@#;          &#x27;@@@@@@S                             </text>
+<text class="rv" style="animation-delay:1.40s" xml:space="preserve" x="22" y="354" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">             &#x27;S@@@@@@@*.           :@@@@@@s                             </text>
+<text class="rv" style="animation-delay:1.45s" xml:space="preserve" x="22" y="368" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">           .+@@@@@@@%-             :@@@@@@S                             </text>
+<text class="rv" style="animation-delay:1.50s" xml:space="preserve" x="22" y="382" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">          :#@@@@@@@=               &#x27;@@@@@@#                             </text>
+<text class="rv" style="animation-delay:1.55s" xml:space="preserve" x="22" y="396" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">        &#x27;s@@@@@@@s`                 %@@@@@@:              *%s+:&#x27;.       </text>
+<text class="rv" style="animation-delay:1.60s" xml:space="preserve" x="22" y="410" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">      .+@@@@@@@%:                   -@@@@@@#&#x27;            ;@@@@@@%.      </text>
+<text class="rv" style="animation-delay:1.65s" xml:space="preserve" x="22" y="424" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">     :%@@@@@@#=                      ;@@@@@@@=`        `*@@@@@@@-       </text>
+<text class="rv" style="animation-delay:1.70s" xml:space="preserve" x="22" y="438" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">    `@@@@@@@@%******************-     -#@@@@@@@S+;::;+S@@@@@@@#-        </text>
+<text class="rv" style="animation-delay:1.75s" xml:space="preserve" x="22" y="452" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">    `@@@@@@@@@@@@@@@@@@@@@@@@@@@=      .=#@@@@@@@@@@@@@@@@@@@+.         </text>
+<text class="rv" style="animation-delay:1.80s" xml:space="preserve" x="22" y="466" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">    `@@@@@@@@@@@@@@@@@@@@@@@@@@@=         -*%@@@@@@@@@@@@#s;`           </text>
+<text class="rv" style="animation-delay:1.85s" xml:space="preserve" x="22" y="480" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">     &#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;`            `&#x27;:==+++=;-`.              </text>
+<text class="rv" style="animation-delay:1.90s" xml:space="preserve" x="22" y="494" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:1.95s" xml:space="preserve" x="22" y="508" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:2.00s" xml:space="preserve" x="22" y="522" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:2.05s" xml:space="preserve" x="22" y="536" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:2.10s" xml:space="preserve" x="22" y="550" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:2.15s" xml:space="preserve" x="22" y="564" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:2.20s" xml:space="preserve" x="22" y="578" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:2.25s" xml:space="preserve" x="22" y="592" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:2.30s" xml:space="preserve" x="22" y="606" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:2.35s" xml:space="preserve" x="22" y="620" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:2.40s" xml:space="preserve" x="22" y="634" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<text class="rv" style="animation-delay:2.45s" xml:space="preserve" x="22" y="648" fill="url(#ag)" font-size="12.6" textLength="547" lengthAdjust="spacing">                                                                        </text>
+<g class="in" style="animation-delay:2.70s"><text x="22" y="680" font-size="12.5"><tspan fill="#38e8ff">$ </tspan><tspan fill="#ffffff" font-weight="700">ZoolCoder</tspan><tspan fill="#5d7689"> · Arabic-first, offline-first software · coding since 2005</tspan></text></g>
+<g class="in" style="animation-delay:3.00s"><rect class="blink" x="22" y="689" width="8" height="14" fill="#38e8ff"/></g>
+</svg>
